@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mike McDaniel | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Mike McDaniel</h1>
+      <p class="site-subtitle">Admin at Meta · Aspiring Developer · VR & AI Projects</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm an Administrative Specialist at Meta focused on operations, automation, and efficiency.
+        I'm learning software development and AI by building real projects, starting with a simple VR 
+        “ball in a cup” game for Meta Quest.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project-card">
+        <h3>Ball in a Cup VR (Meta Quest)</h3>
+        <p class="project-status">Status: Planning & Prototype</p>
+        <p>
+          A simple, physics-based VR game designed for Meta Quest where you toss a virtual ball and 
+          catch it in a cup using hand tracking or controllers. I'm using this project to learn Unity, VR 
+          development best practices, and how to integrate AI-driven features.
+        </p>
+        <ul>
+          <li>Platform: Meta Quest</li>
+          <li>Engine: Unity (planned)</li>
+          <li>Focus: Physics, interactions, and polished feel</li>
+        </ul>
+      </article>
+
+      <!-- Future projects can go here -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Want to connect or chat about operations, AI, or VR? 
+        <a href="mailto:youremail@example.com">Email me</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Mike McDaniel. Built while learning to code.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
